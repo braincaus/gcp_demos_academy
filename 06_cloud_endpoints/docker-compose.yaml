@@ -19,5 +19,3 @@ services:
       - ./src:/src
     expose:
       - "8000"
-    depends_on:
-      - db
