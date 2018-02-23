@@ -17,6 +17,5 @@ RUN pip3 install -r requirements.txt
 
 COPY ./src /application/
 
-ENTRYPOINT ["gunicorn", "-b", ":8000", "demo.wsgi"]
+ENTRYPOINT ["gunicorn", "-b", ":8080", "demo.wsgi"]
 
-EXPOSE 8000
