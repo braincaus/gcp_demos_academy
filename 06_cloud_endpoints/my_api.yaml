@@ -12,7 +12,7 @@ info:
 host: "echo-api.endpoints.root-welder-193802.cloud.goog"
 x-google-endpoints:
     - name: "echo-api.endpoints.root-welder-193802.cloud.goog"
-      target: "35.202.172.251"
+      target: "35.231.120.82"
 basePath: "/"
 tags:
 - name: "post"
