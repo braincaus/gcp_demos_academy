@@ -22,6 +22,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls')),
     url(r'^api-token-auth/', views.obtain_auth_token),
-    url(r'^post/$', PostList.as_view()),
-    url(r'^post/?P<pk>[0-9]+/$', PostManager.as_view()),
+    url(r'^post/', PostList.as_view()),
+    url(r'^post/?P<pk>[0-9]+/', PostManager.as_view()),
 ]
