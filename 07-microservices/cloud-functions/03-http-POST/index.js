@@ -11,9 +11,8 @@ exports.helloWorld = (req, res) => {
     res.status(400).send('No message defined!');
   } else {
     // Everything is ok
-    res.status(400).send('Hello Human!');
     console.log(req.body.message);
-    res.status(200).end();
+    res.status(200).send('Hello Human!');
   }
 };
 
